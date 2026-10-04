@@ -65,4 +65,38 @@ back as an error, and errors are not billed.
 - [Google Search Results collector](https://quanticdata.io/collectors/google-search-results-api/) — the same data, paginated and billed per row
 - [Keyword research API](https://quanticdata.io/collectors/keyword-research-api/)
 
+## Node.js
+
+The minimal call without Python: Node 18 or newer, no dependencies. See [`serp.mjs`](serp.mjs):
+
+```bash
+export QUANTICDATA_API_KEY=qd_live_your_key_here
+node serp.mjs "best coffee grinder" us
+```
+
+## Sample response
+
+A real `POST /v1/serp` call from 4 October 2026: `best coffee grinder`, Google, United States. One organic row is shown here; the trimmed payload is in [`sample-response.json`](sample-response.json).
+
+```json
+{
+  "rank": 3,
+  "title": "The 9 Best Coffee Grinders of 2026, Tested & Reviewed - Serious Eats",
+  "link": "https://www.seriouseats.com/the-best-coffee-grinders",
+  "display_link": "www.seriouseats.com › Equipment › Coffee & Tea › Gear",
+  "source": "seriouseats.com",
+  "description": "The Baratza Virtuoso+ is the best coffee grinder for the bean-obsessed. With over 40 settings, it offers versatility without being over-designed ...",
+  "sitelinks": [
+    {
+      "title": "Top Picks",
+      "link": "https://www.seriouseats.com/the-best-coffee-grinders#toc-top-picks"
+    },
+    {
+      "title": "The Tests",
+      "link": "https://www.seriouseats.com/the-best-coffee-grinders#toc-the-tests"
+    }
+  ]
+}
+```
+
 MIT licensed.

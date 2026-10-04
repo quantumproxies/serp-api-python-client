@@ -1,0 +1,81 @@
+{
+  "request": {
+    "query": "best coffee grinder",
+    "engine": "google",
+    "country": "us",
+    "num": 3
+  },
+  "captured_at": "2026-10-04",
+  "payload": {
+    "search_parameters": {
+      "engine": "google",
+      "q": "best coffee grinder",
+      "search_type": "search",
+      "device": "desktop",
+      "country": "us",
+      "language": null,
+      "page": 1
+    },
+    "organic": [
+      {
+        "rank": 1,
+        "title": "Coffee Grinders: A Buying Guide (and a Strong Suggestion)",
+        "link": "https://kaldiscoffee.com/blogs/news/coffee-grinders-buying-guide",
+        "display_link": "kaldiscoffee.com › blogs › news › coffee-grinders-buying-guide",
+        "source": "kaldiscoffee.com",
+        "description": "FIVE SUGGESTIONS FOR BEST ENTRY LEVEL COFFEE GRINDERS · 1. Baratza Encore · 2. Fellow Opus Brewing a V60 with the Fellow Opus · 3. Fellow Ode Brew ..."
+      },
+      {
+        "rank": 2,
+        "title": "Best Budget Coffee Grinders for 2026 - CoffeeGeek",
+        "link": "https://coffeegeek.com/guides/feature-guides/best-budget-coffee-grinders-for-2026/",
+        "display_link": "coffeegeek.com › guides › feature-guides › best-budget-coffee-grinders-fo...",
+        "source": "coffeegeek.com",
+        "description": "The Kingrinder P2 at $45, the K2 at $75, the Mavo Phantox Pro at $130, and the 1Zpresso X-Ultra at the top of the manual range are all here on merit."
+      },
+      {
+        "rank": 3,
+        "title": "The 9 Best Coffee Grinders of 2026, Tested & Reviewed - Serious Eats",
+        "link": "https://www.seriouseats.com/the-best-coffee-grinders",
+        "display_link": "www.seriouseats.com › Equipment › Coffee & Tea › Gear",
+        "source": "seriouseats.com",
+        "description": "The Baratza Virtuoso+ is the best coffee grinder for the bean-obsessed. With over 40 settings, it offers versatility without being over-designed ...",
+        "sitelinks": [
+          {
+            "title": "Top Picks",
+            "link": "https://www.seriouseats.com/the-best-coffee-grinders#toc-top-picks"
+          },
+          {
+            "title": "The Tests",
+            "link": "https://www.seriouseats.com/the-best-coffee-grinders#toc-the-tests"
+          }
+        ]
+      }
+    ],
+    "related_searches": [
+      {
+        "query": "Best coffee grinder for espresso"
+      },
+      {
+        "query": "Best coffee grinder reddit"
+      },
+      {
+        "query": "Best high end coffee grinder"
+      },
+      {
+        "query": "Best manual coffee grinder"
+      }
+    ],
+    "pagination": {
+      "current": 1,
+      "next": 3,
+      "has_next": true,
+      "available_pages": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "note": "Real call. Trimmed: tracking parameter removed from the first link, two of four sitelinks and four of eight related searches shown, run metadata left out."
+}
